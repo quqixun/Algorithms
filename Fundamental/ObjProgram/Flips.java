@@ -11,9 +11,9 @@ public class Flips{
         Counter tails = new Counter("tails");
 
         for (int t = 0; t < T; t++){
-		    if (StdRandom.bernoulli(.5))
-			     heads.increment();
-		    else tails.increment();
+            if (StdRandom.bernoulli(.5))
+                heads.increment();
+            else tails.increment();
         }
 
         StdOut.println(heads);
