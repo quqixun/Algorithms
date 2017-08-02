@@ -2,17 +2,20 @@
 
 #### Compile
 
-javac RandomSeq.java Average.java
+> javac RandomSeq.java Average.java
 
-#### Run
+#### Run RandomSeq
 
-java RandomSeq 1000 0.0 1.0
+> java RandomSeq 1000 0.0 1.0
 
-java RandomSeq 1000 0.0 1.0 > data.txt
+> java RandomSeq 1000 0.0 1.0 > data.txt
 
-java Average
+#### Run Average
 
-java Average < data.txt
+> java Average
 
+> java Average < data.txt
 
-java RandomSeq 1000 0.0 1.0 | java Average
+#### Put the output of RandomSeq into Average
+
+> java RandomSeq 1000 0.0 1.0 | java Average
