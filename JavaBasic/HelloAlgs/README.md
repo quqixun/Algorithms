@@ -1,5 +1,9 @@
 ### Usage
 
-javac BinaraySearch.java
+#### Compile
 
-java BinarySearch tinyW.txt < tinyT.txt
+> javac BinaraySearch.java
+
+#### Run
+
+> java BinarySearch tinyW.txt < tinyT.txt

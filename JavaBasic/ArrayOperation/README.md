@@ -1,5 +1,9 @@
 ### Usage
 
-javac ArrayOperation.java
+#### Compile
 
-java ArrayOperation
+> javac ArrayOperation.java
+
+#### Run
+
+> java ArrayOperation

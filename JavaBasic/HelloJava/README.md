@@ -1,5 +1,9 @@
 ### Usage
 
-javac HelloJava.java
+#### Compile
 
-java HelloJava
+> javac HelloJava.java
+
+#### Run
+
+> java HelloJava

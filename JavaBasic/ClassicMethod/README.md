@@ -1,5 +1,9 @@
 ### Usage
 
-javac ClassicMethod.java
+#### Compile
 
-java ClassicMethod
+> javac ClassicMethod.java
+
+#### Run
+
+> java ClassicMethod
