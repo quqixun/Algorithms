@@ -69,7 +69,7 @@ public class ArrayOperation{
     
     public static void main(String[] args){
         // Array a
-        double[] a = {2.4, 5.7, 6.1, 3.0, 8.9, 1.4, 0.2, 9.7};
+        double[] a = {2.4, 5.7, 6.1, 3.0, 8.9, 1.4, 0.7, 9.7};
         
         // Find the maximum value of a
         double a_max = max(a);

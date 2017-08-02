@@ -73,7 +73,7 @@ public class ClassicMethod {
         System.out.println(sqrt(49.0));
         
         // Test function "hypotenuse(double a, double b)"
-        System.out.println(hypotenuse(60.0, 80.0));
+        System.out.println(hypotenuse(600.0, 800.0));
         
         // Test function "H(int x)"
         System.out.println(H(7));
