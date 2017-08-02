@@ -6,11 +6,9 @@
 
 import java.util.Arrays;
 
-public class ArrayOperation
-{
+public class ArrayOperation{
     // Return the maximum value of an array
-    public static double max(double[] a)
-    {
+    public static double max(double[] a){
         double max = a[0];
         
         for (int i = 1; i < a.length; i++)
@@ -20,8 +18,7 @@ public class ArrayOperation
     }
     
     // Return mean value of an array
-    public static double mean(double[] a)
-    {
+    public static double mean(double[] a){
         int N = a.length;
         double sum = 0.0;
         
@@ -33,8 +30,7 @@ public class ArrayOperation
     }
     
     // Copy the input array
-    public static double[] copy(double[] a)
-    {
+    public static double[] copy(double[] a){
         int N = a.length;
         double[] b = new double[N];
         
@@ -45,13 +41,11 @@ public class ArrayOperation
     }
     
     // Return the inverse array of a
-    public static double[] inverse(double[] a)
-    {
+    public static double[] inverse(double[] a){
         int N = a.length;
         double[] inverse = new double[N];
         
-        for (int i = 0; i < N/2; i++)
-        {
+        for (int i = 0; i < N/2; i++){
             double temp = a[i];
             inverse[i] = a[N-1-i];
             inverse[N-1-i] = temp;
@@ -61,8 +55,7 @@ public class ArrayOperation
     }
     
     // Multiply two square matrices
-    public static double[][] multiply(double[][]a, double[][] b)
-    {
+    public static double[][] multiply(double[][] a, double[][] b){
         int N = a.length;
         double[][] c = new double[N][N];
         
@@ -74,8 +67,7 @@ public class ArrayOperation
         return c;
     }
     
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         // Array a
         double[] a = {2.4, 5.7, 6.1, 3.0, 8.9, 1.4, 0.2, 9.7};
         

@@ -1,27 +1,24 @@
 /**
  * @source  Algorithms Fourth Edition
- * @title   Basic Operation on Array
+ * @title   Implementations of Classic Methods
  * @Chapter 1.1 Fundamentals - Programming Model
  */
 
 public class ClassicMethod {
     // Retuen the absolute value of an integer
-    public static int abs(int x)
-    {
+    public static int abs(int x){
         if (x < 0) return -x;
         else       return x;
     }
     
     // Retuen the absolute value of a double number
-    public static double abs(double x)
-    {
+    public static double abs(double x){
         if (x < 0.0) return -x;
         else         return x;
     }
     
     // Decide whether the input integer is a prime or not
-    public static boolean isPrime(int x)
-    {
+    public static boolean isPrime(int x){
         if (x < 2) return false;
         
         for (int i = 2; i * i <= x; i++)
@@ -32,8 +29,7 @@ public class ClassicMethod {
     
     // Compute the square root of input number
     // by Newton's method
-    public static double sqrt(double x)
-    {
+    public static double sqrt(double x){
         if (x < 0) return Double.NaN;
         
         double err = 1e-15;
@@ -46,14 +42,12 @@ public class ClassicMethod {
     }
     
     // Compute the length of hypotenus of right triangle
-    public static double hypotenuse(double a, double b)
-    {
+    public static double hypotenuse(double a, double b){
         return Math.sqrt(a * a + b * b);
     }
     
     // Compute harmonic series
-    public static double H(int x)
-    {
+    public static double H(int x){
         double sum = 0.0;
         
         for (int i = 1; i <= x; i++)
@@ -62,8 +56,7 @@ public class ClassicMethod {
         return sum;
     }
     
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         // Test function "abs(int x)"
         System.out.println(abs(7));
         System.out.println(abs(-7));
