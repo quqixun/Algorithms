@@ -2,6 +2,6 @@
 
 #### HelloJava
 
-`javac HelloJava.java
+`javac HelloJava.java`
 
-java HelloJava`
+`java HelloJava`

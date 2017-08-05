@@ -2,6 +2,6 @@
 
 #### ClassicMethod
 
-`javac ClassicMethod.java
+`javac ClassicMethod.java`
 
-java ClassicMethod`
+`java ClassicMethod`

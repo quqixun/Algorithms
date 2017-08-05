@@ -2,19 +2,19 @@
 
 #### RandomSeq
 
-`javac RandomSeq.java
+`javac RandomSeq.java`
 
-java RandomSeq 1000 0.0 1.0
+`java RandomSeq 1000 0.0 1.0`
 
-java RandomSeq 1000 0.0 1.0 > data.txt`
+`java RandomSeq 1000 0.0 1.0 > data.txt`
 
 #### Average
 
-`javac Average.java
+`javac Average.java`
 
-java Average
+`java Average`
 
-java Average < data.txt`
+`java Average < data.txt`
 
 #### Put the output of RandomSeq into Average
 

@@ -2,6 +2,6 @@
 
 #### BinaraySearch
 
-`javac BinaraySearch.java
+`javac BinaraySearch.java`
 
-java BinarySearch tinyW.txt < tinyT.txt`
+`java BinarySearch tinyW.txt < tinyT.txt`

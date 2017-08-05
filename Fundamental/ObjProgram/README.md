@@ -2,56 +2,56 @@
 
 #### Counter
 
-`javac Counter.java
+`javac Counter.java`
 
-java Counter`
+`java Counter`
 
 #### Flips
 
-`javac Flips.java
+`javac Flips.java`
 
-java Flips 10000`
+`java Flips 10000`
 
 #### FlipsMax
 
-`javac FlipsMax.java
+`javac FlipsMax.java`
 
-java FlipsMax 10000`
+`java FlipsMax 10000`
 
 #### Rolls
 
-`javac Rolls.java
+`javac Rolls.java`
 
-java Rolls 100000`
+`java Rolls 100000`
 
 #### Cat
 
-`javac Cat.java
+`javac Cat.java`
 
-java Cat In1.txt In2.txt Out.txt`
+`java Cat In1.txt In2.txt Out.txt`
 
 #### Date
 
-`javac Date.java
+`javac Date.java`
 
-java Date 7 27 1991
+`java Date 7 27 1991`
 
-java Date 7/27/1991`
+`java Date 7/27/1991`
 
 #### Accumulator
 
-'javac Accumulator.java
+'javac Accumulator.java`
 
-java Accumulator 1000'
+`java Accumulator 1000'
 
 #### VisualAccumulator
 
-'javac VisualAccumulator.java
+'javac VisualAccumulator.java`
 
-java VisualAccumulator 2000'
+`java VisualAccumulator 2000'
 
 #### StaticSETofInts
 
-'javac StaticSETofInts.java
+'javac StaticSETofInts.java`
 
-java StaticSETofInts tinyW.txt < tinyT.txt'
+`java StaticSETofInts tinyW.txt < tinyT.txt'
