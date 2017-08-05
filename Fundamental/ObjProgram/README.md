@@ -40,18 +40,18 @@
 
 #### Accumulator
 
-'javac Accumulator.java`
+`javac Accumulator.java`
 
-`java Accumulator 1000'
+`java Accumulator 1000`
 
 #### VisualAccumulator
 
-'javac VisualAccumulator.java`
+`javac VisualAccumulator.java`
 
-`java VisualAccumulator 2000'
+`java VisualAccumulator 2000`
 
 #### StaticSETofInts
 
-'javac StaticSETofInts.java`
+`javac StaticSETofInts.java`
 
-`java StaticSETofInts tinyW.txt < tinyT.txt'
+`java StaticSETofInts tinyW.txt < tinyT.txt`
