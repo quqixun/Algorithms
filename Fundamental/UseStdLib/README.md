@@ -1,26 +1,28 @@
 ### Usage
 
-#### Compile
+#### RandomSeq
 
-`javac RandomSeq.java Average.java BasicDraw.java`
+`javac RandomSeq.java
 
-#### Run RandomSeq
+java RandomSeq 1000 0.0 1.0
 
-`java RandomSeq 1000 0.0 1.0`
+java RandomSeq 1000 0.0 1.0 > data.txt`
 
-`java RandomSeq 1000 0.0 1.0 > data.txt`
+#### Average
 
-#### Run Average
+`javac Average.java
 
-`java Average`
+java Average
 
-`java Average < data.txt`
+java Average < data.txt`
 
 #### Put the output of RandomSeq into Average
 
 `java RandomSeq 1000 0.0 1.0 | java Average`
 
-#### Run BasicDraw
+#### BasicDraw
+
+`javac BasicDraw.java`
 
 `java BasicDraw point`
 

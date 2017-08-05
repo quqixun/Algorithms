@@ -1,9 +1,7 @@
 ### Usage
 
-#### Compile
+#### ClassicMethod
 
-`javac ClassicMethod.java`
+`javac ClassicMethod.java
 
-#### Run
-
-`java ClassicMethod`
+java ClassicMethod`

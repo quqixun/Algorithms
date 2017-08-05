@@ -1,9 +1,7 @@
 ### Usage
 
-#### Compile
+#### ArrayOperation
 
-`javac ArrayOperation.java`
+`javac ArrayOperation.java
 
-#### Run
-
-`java ArrayOperation`
+java ArrayOperation`

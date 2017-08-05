@@ -1,9 +1,7 @@
 ### Usage
 
-#### Compile
+#### HelloJava
 
-`javac HelloJava.java`
+`javac HelloJava.java
 
-#### Run
-
-`java HelloJava`
+java HelloJava`
