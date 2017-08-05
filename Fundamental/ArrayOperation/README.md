@@ -2,6 +2,6 @@
 
 #### ArrayOperation
 
-`javac ArrayOperation.java‘
+`javac ArrayOperation.java`
 
 `java ArrayOperation`
