@@ -34,9 +34,11 @@
 
 `javac Date.java`
 
+`java Date 7/27/1991`
+
 `java Date 7 27 1991`
 
-`java Date 7/27/1991`
+`java Date 7/27/1991 7/27/1991`
 
 #### Accumulator
 

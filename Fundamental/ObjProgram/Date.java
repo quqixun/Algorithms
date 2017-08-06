@@ -31,10 +31,29 @@ public class Date{
     public String toString()
     { return month() + "/" + day() + "/" + year(); }
 
+    public boolean equals(Object x){
+        if (this == x) return true;
+        if (x == null) return false;
+        if (this.getClass() != x.getClass()) return false;
+
+        Date that = (Date) x;
+        if (this.day != that.day)      return false;
+        if (this.month != that.month)  return false;
+        if (this.year != that.year)    return false;
+
+        return true;
+    }
+
     public static void main(String[] args){
         if (args.length == 1){
             Date date = new Date(args[0]);
             StdOut.println(date);
+        }
+
+        if (args.length == 2){
+            Date one = new Date(args[0]);
+            Date two = new Date(args[1]);
+            StdOut.println(one.equals(two));
         }
 
         if (args.length == 3){
