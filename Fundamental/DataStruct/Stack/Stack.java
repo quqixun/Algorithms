@@ -11,7 +11,7 @@ public class Stack<Item> implements Iterable<Item> {
     private Node<Item> top;   // Top element of stack
     private int n;            // Number of elements in stack
 
-    private class Node<Item> {
+    private static class Node<Item> {
         private Item item;
         private Node<Item> next;
     }
@@ -70,7 +70,7 @@ public class Stack<Item> implements Iterable<Item> {
             current = top;
         }
 
-        public boolean hasNext() { return current == null; }
+        public boolean hasNext() { return current != null; }
         public void remove()     { throw new UnsupportedOperationException(); }
 
         public Item next(){
