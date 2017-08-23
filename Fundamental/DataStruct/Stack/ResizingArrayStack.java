@@ -31,6 +31,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item>{
         elements[N] = null;
         if (N > 0 && N == elements.length / 4)
             resize(elements.length / 2);
+        return item;
     }
 
     public Iterator<Item> iterator(){
@@ -42,5 +43,20 @@ public class ResizingArrayStack<Item> implements Iterable<Item>{
         public boolean hasNext() { return i > 0;         }
         public    Item next()    { return elements[--i]; }
         public    void remove()  {                       }
+    }
+
+    public static void main(String[] args) {
+        ResizingArrayStack<String> s;
+        s = new ResizingArrayStack<String>();
+
+        while(!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-"))
+                s.push(item);
+            else if(!s.isEmpty())
+                StdOut.print(s.pop() + " ");
+        }
+
+        StdOut.println("(" + s.size() + " left on stack)");
     }
 }
