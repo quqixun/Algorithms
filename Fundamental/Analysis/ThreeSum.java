@@ -15,7 +15,7 @@ public class ThreeSum {
 				for (int k = j + 1; k < n; k++)
 					if (a[i] + a[j] + a[k] == 0)
 						count++;
-		return cnt;
+		return count;
 	}
 
 	public static void main(String[] args) {
